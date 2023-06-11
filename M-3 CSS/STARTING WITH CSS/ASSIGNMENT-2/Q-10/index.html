@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A-2 Question-10</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    div.img1{
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+
+      background-image: linear-gradient(to right bottom,rgba(212, 212, 212, 0.401),rgba(211, 211, 211, 0.401)),
+      url("https://images.pexels.com/photos/1834407/pexels-photo-1834407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+      height: 300px;
+      width: 320px;
+      border-radius: 0.7rem;
+    }
+    div.img1:hover{
+      background-image:url("https://images.pexels.com/photos/1834407/pexels-photo-1834407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+     }
+     span{
+      font-weight: bold;
+     }
+     div.con2{
+      color:#707070;
+      background-color: #BFFFE9;
+      
+      border: 1px solid black;
+      border-radius:1rem ;
+      padding: 1rem;
+     }
+     div.con2:hover{
+      color: black;
+      background-color: #7FFFD4;
+      background-color: #7FFFD4;
+           
+     }
+     
+  </style>
+</head>
+<body>
+  <div class="con2">
+    <div class="img1">
+      
+    </div>
+    <p><span>Course Name: </span>PW Skills Sigma 2.0</p>
+  </div>
+  
+  <script>
+    const divcon2 =document.querySelector('div.con2'); 
+    const divimg1=document.querySelector('div.img1');
+
+    console.log(divimg1);
+
+    divcon2.addEventListener('mouseover',()=>{
+      divimg1.style.backgroundImage='url("https://images.pexels.com/photos/1834407/pexels-photo-1834407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")';
+      console.log("Img Div Activated");
+    });
+
+    divcon2.addEventListener('mouseout',()=>{
+      
+      divimg1.style.backgroundImage='linear-gradient(to right bottom,rgba(212, 212, 212, 0.401),rgba(211, 211, 211, 0.401)),url("https://images.pexels.com/photos/1834407/pexels-photo-1834407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")';
+
+      console.log("Img Div Dis-Activated");
+    })
+  </script>
+</body>
+</html>
