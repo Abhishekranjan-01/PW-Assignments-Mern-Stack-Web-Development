@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card{
+  font-family: Poppins, sans-serif;
+  color:#19190F;
+  background-color:#F8F9FA;
+  height:98vh ;
+  width: 330px;
+  padding: 5px;
+  margin: 5px 5px;
+  border: 1px solid rgb(63, 63, 63);
+  
+}
+.logo img{
+  height: 180px;
+  width: 330px;
+  padding: 0 95px;
+}
+.about-logo{
+  font-weight: 500;
+  font-size: 12px;
+}
+.container{
+  margin-top: 20px;
+}
+.about{
+  float: left;
+}
+h6{
+color: #4F5FC8;
+margin:10px 0;
+}
+.description{
+  float:right;
+  margin-right:15px;
+}
+.description p{
+  font-size: 10px;
+  padding-top:0;
+  margin:10px 0;
+}
