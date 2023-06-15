@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+  }
+  .container{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid black; */
+    position: relative;
+  }
+  .pok{
+    margin: 10px 10px ;
+    width: 100px;
+    height: 140px;
+    position: absolute;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  /* DIv Adjustment */
+  .pok-1{
+    background-color: #1B98F5;
+  }
+  .pok-2{
+    background: #1FAA59;
+    top:30px;
+    left: 10px;
+  }
+  .pok-3{
+    background-color: #F7CD2E;
+    top:60px;
+    left: 20px;
+  }
+  /* Images Adjustment */
+  .pok-1 img{
+    margin: 0px 10px;
+    height: 80px;
+    width: 80px;
+  }
+  .pok-2 img{
+    margin: 0px 10px;
+    height: 80px;
+    width: 80px;
+  }
+  .pok-3 img{
+    margin: 0px 10px;
+    height: 100px;
+    width: 80px;
+  }
+  
+  /* Card Label */
+  h6{
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+  }
+  /* Hovering */
+  .pok-1:hover{
+    z-index: 10;
+  }
+  .pok-2:hover{
+    z-index: 10;
+  }
+  .pok-3:hover{
+    z-index: 10;
+  }
