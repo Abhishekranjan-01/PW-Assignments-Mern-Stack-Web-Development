@@ -1,0 +1,58 @@
+body{
+    background-color: #758283;
+  }
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h6{
+    visibility: hidden;
+    display: inline;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  dialog{
+    height: 400px;
+    width:  600px ;
+    border: none;
+    border-radius: 10px;
+    /* position: relative; */
+  }
+  h2{
+    text-align: center;
+  }
+
+  .t-and-c{
+    border-bottom: 1px solid #414141;
+    width: 100%;
+    max-height: 270px;
+    overflow-y: scroll;
+  }
+    input{
+        
+        margin-top: 10px;
+    }
+  button{
+    display: block;
+    color: #fff;
+    background-color: #5A4BDA;
+    padding:5px 18px;
+    border: none;
+    border-radius: 4px;
+    margin-top:7px ;
+    cursor: pointer; 
+  }
+  button:hover{
+    color: black;
+  }
+  input:hover{
+    cursor: pointer;
+  }
+  :modal{
+  border: 1px soild red;
+  
+  }
