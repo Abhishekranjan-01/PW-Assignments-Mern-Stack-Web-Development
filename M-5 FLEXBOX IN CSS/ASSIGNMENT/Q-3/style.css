@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+*{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+/* overflow: scroll; */
+}
+main{
+    height: 100%;
+    overflow:scroll;
+}
+footer{
+  background-color: #1B2124;
+  position: fixed;
+  width: 100%;
+  height: 300px;
+  bottom: 0px;
+  border: 1px solid black;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.f-item{
+  color: #EEEFEE;
+  width: 300px;
+  margin-top: 20px;
+  /* height: 300px; */
+  /* border: 1px solid greenyellow; */
+  
+}
+.f-item > h2{
+  font-family: poppins;
+  font-weight:400 ;
+  padding: 15px 0;
+  border-bottom: 1px solid #A2784D;
+  
+}
+div > ul.a-left{
+  margin-top: 10px;
+  float: left;
+}
+div > ul.a-right{
+  /* width: 70px; */
+  margin-top: 10px;
+  text-align: left;
+  float: right;
+}
+ul.a-right li{
+  text-align:start;
+  width: 60px;
+}
+ul li{
+    width: 100px;
+    list-style: none;
+    padding: 10px 0;
+}
+a{
+  color: #EEEFEE;
+  text-decoration: none;
+  
+  font-size: 12px;
+}
+.f-item-1{
+  /* float: left; */
+}
+.f-item-1 img[alt=PW-Skills-Logo]{
+  padding: 15px 0;
+  width: 100px;
+}
+img[alt=iso-logo]
+{
+  display: block;
+  width:80px;
+  margin-top: 30px;
+}
+.f-item-3 li{
+  width: 100%;
+  /* height: 400px; */
+  padding: 5px 0;
+}
