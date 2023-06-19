@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M-5 Question-7</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    header{
+      position: fixed;
+      width: 100%;
+      border-radius: 5px;
+      border-left: 4px solid #F26969;
+    }
+    div{
+      background-color: #FEE2E2;
+      display: flex;
+      justify-content: space-between;
+    }
+    h4{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #F07589;
+      padding: 20px 0 0px 0;
+    }
+    h6{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #F07589;
+      cursor: pointer;
+    }
+    img,h6{
+      padding: 20px 10px 10px ;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img height="20" width="20" src="./images/warning.png" alt="">
+      <h4>Warning!! This Action Is Not Allowed.</h4>
+      <h6>X</h6>
+    </div>
+
+    <script>
+      const header=document.querySelector('header');
+      const close= document.querySelector('h6');
+
+      close.addEventListener('click',()=>{
+        header.style.display='none';
+      })
+    </script>
+  </header>
+</body>
+</html>
