@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Montserrat;
+  background-color: #FFFFFF;
+  position: relative;
+}
+/* HEADER*/
+
+header{
+  border: 1px solid #ffffff;
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px #ced2d4a2;
+  padding:0px 60px 1px;
+}
+/* NAV */
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 7px 0;
+  /* padding-left: 20px; */
+  /* border: 2px solid greenyellow; */
+  list-style: none;
+}
+nav ul li.l1{
+width: 150px;
+}
+nav ul li.l2{
+  height: 100%;
+  flex-basis: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* margin: 0 30px 0 0; */
+}
+li > h4{
+display:inline;
+color: #4c4d4e;
+font-family: Montserrat;
+font-size: 25px;
+font-weight: 400;
+/* border: 2px solid black; */
+}
+button{
+  cursor: pointer;
+  color: #1A73E8 ;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  /* background-color: #fff; */
+}
+nav ul li.l2 div{
+margin: 0 5px;
+/* border: 2px solid red; */
+/* border-radius: 5px; */
+cursor: pointer;
+}
+a{
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  font-family: Montserrat;
+  color:inherit;
+  
+} 
+/* STYLING FOR BUTTONS */
+/* (FOR WORK) */
+.for-work{
+  
+  color:#1A73E8;
+  background-color: #fff;
+}
+.for-work:hover{
+  color: #174EA6;
+  background-color: #F4F8FE;
+}
+.for-work a{
+color:inherit;
+}
+/* (SIGN IN) */
+.sign-in{
+   border: 1px solid #b3b8bb;
+  background-color: #fff;
+}
+.sign-in:hover{
+  background-color:#F1F3F4 ;
+}
+/* (CREATE AN ACCOUNT) */
+.create-an-account{
+  background-color: #1A73E8;
+}
+.create-an-account a{
+  font-family: Montserrat;
+  color: #fff;
+}
+.create-an-account:hover{
+  background-color: #174EA6;
+}
+/* MAIN */
+main{
+  padding-top: 15vh;
+  padding-left:10vw ;
+}
+main h1{
+  font-size: 55px;
+  font-weight: 600;
+}
+.f-left{
+  float: left;
+  /* padding-right: 70px; */
+  padding-top: 100px;
+  width: 500px;
+  height: 100%;
+  font-size: 18px;
+  
+  /* border: 1px solid black; */
+}
+.f-left p{
+  color: #5F6368;
+  margin-top: 50px;
+  line-height: 30px;
+}
+.f-left div{
+  margin-top: 70px;
+  display: inline-block;
+  /* position: relative; */
+  /* bottom: 0; */
+}
+.f-right{
+  width: 55%;
+  float: right;
+}
+div.clear-both{
+  clear: both;
+}
+main img{
+  float: right;
+  width: 100%;
+  height: 600px;
+}
