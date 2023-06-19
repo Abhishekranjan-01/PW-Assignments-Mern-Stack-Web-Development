@@ -1,0 +1,78 @@
+/* @import url('https://fonts.cdnfonts.com/css/product-sans'); */
+/* @import url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) ; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+body{
+    background-color: #202124;
+}
+h1{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 100px;
+    /* font-family: 'Product Sans', sans-serif; */
+    /* font-family: Product Sans; */
+    font-family: Montserrat;
+    transform: translate(-50,-50);
+}
+main{
+    width: 98vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    /* border: 2px solid red; */
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    /* border: 2px solid yellow; */
+}
+/* CONTAINER FOR INPUT AND THEIR ICONS AND IMAGES */
+div.input-box{
+    padding: 2px 2px;
+}
+
+input{
+height: 35px;
+width: 500px;
+display: block;
+background-color: #202124;
+border: 0.5px solid #c7c7c7;
+border-radius:30px ;
+outline: none;
+padding: 0 10px 0 50px;
+font-size: 16px;
+color: #fff;
+}
+
+input:focus{
+    margin: 2px 2px;
+    border: none;
+    background-color: #303134; 
+}
+
+/* STYLING IMAGES AND ICONS */
+
+img[alt='search']{
+position: relative;
+top:-30px;
+margin-left: 10px;
+}
+img[alt='google-mic']{
+float: right;
+position: relative;
+top:-60px;
+right: 60px;
+cursor: pointer;
+}
+img[alt='google-lens']{    
+float: right;
+position: relative;
+top:-60px;
+right: 10px;
+cursor: pointer;
+}
