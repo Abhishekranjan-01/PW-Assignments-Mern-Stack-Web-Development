@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr;
+    grid-template-rows: 52px 3fr 2fr;
+    grid-template-areas: 
+    "header header header"
+    "left middle right"
+    "features features features";
+    ;
+}
+.item{
+  
+    /* border: 1px solid black ; */
+}
+
+
+.header{
+
+  grid-area: header;
+ 
+  height: fit-content;
+}
+nav{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+}
+nav > div.nav-menu{
+
+    align-self: center;
+
+}
+nav > div.nav-menu > ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    justify-items: start;
+    list-style: none;
+   
+}
+nav > div.nav-menu > ul li{
+   
+    justify-self: start;
+}
+ul li a{
+    text-decoration: none;
+   
+    color: black;
+}
+button[type=login]{
+    margin:5px 5px 0 0;
+    justify-self: end;
+    align-self: start;
+    background-color: #0FDB6B;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type=login]:hover{
+    color:#fff
+}/*HEADER SECTION ENDS*/
+
+
+/* MAIN SECTION*/
+.left{      /* Healthy Food */
+    padding: 0 40px;
+    align-self: center;
+    grid-area: left;
+}
+.left > h1{
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.left > p{
+    font-size: 13px;
+}
+.left > button{
+    
+    cursor: pointer;
+    border: none;
+    padding: 5px 30px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: black;
+}
+
+.middle{        /*Food Banner*/
+    grid-area: middle;
+    /* background-image: url(https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    /* background-size: cover; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    
+}
+.middle > img[alt=food]{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.right{ /*Yellow color in right of food banner*/
+    background-color: #FFFF00;
+    grid-area: right;
+}/*MAIN SECITON ENDS*/
+
+/* FEATURES SECITION */
+.features{
+    grid-area: features;
+    background-color: #2B1E16;
+}
+.features > ul{
+    /* padding-left: 10%; */
+    height: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    /* justify-items: end; */
+}
+.features ul li{
+    justify-self:center;
+    width: 55%;
+}
+
+.features ul li div{
+    display: grid;
+    /* grid-template-columns: repeat(3,1fr); */
+    justify-content:space-evenly ;
+    
+}
+.features > ul > li img{
+    margin: 0 0;
+    text-align: center;
+    height:200px ;
+}
+
+.features ul li h3{
+    text-align: center;
+    margin: 20px 0;
+    color: #fff;
+}
+.features ul li p{
+    text-align: center;
+    font-size: 12px;
+    color: #806140;
+}/*FEATURES SECION ENDS*/
