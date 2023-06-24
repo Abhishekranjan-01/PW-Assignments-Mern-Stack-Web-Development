@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box; 
+}
+body{
+  font-family: Montserrat;
+}
+/* Navigation Bar */
+nav{
+  background-color: #242B2E;
+  border: 1px solid #000000;
+  
+}
+/* Nav Container */
+.navContainer{
+  width: 100vw;
+  padding: 0 15px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+/* (Logo Text) Written Within  nav-item-1 */
+.nav-item-1 h2{
+
+  color: #0071E0;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+/* Navigation Link Container Within nav-item-2 */
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  
+  gap: 15px;
+}
+/* Navigation Links Stylings */
+nav ul li{
+  display: inline;
+  list-style: none;
+}
+/* Navigation Links Anchor Tag Styling */
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Button Within Nav-Item-3 */
+.nav-item-3 button{
+  padding: 5px 35px;
+  color: #fff;
+  background-color: #0072E1;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+}
+/* Hamburgor Icon Within nav-item-3 */
+.nav-item-3 > i{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  writing-mode: horizontal-tb;
+  color: #fff;
+  visibility: hidden;
+}
+
+/* RWD for Nav Bar */
+@media screen and (max-width:640px) {
+  /* Nav Container Within Nav */
+  .navContainer{
+    height: 70px;
+  }
+
+  /* Logo Text Written Within nav-item-1 */
+  .nav-item-1 > h2{
+    font-size: 22px;
+  }
+
+  /* Navigation Links Within nav-item-1 And Button Within nav-item 3  */
+  .nav-item-2 > ul,.nav-item-3 > button{
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  /* Hamburger Icon within nav-item-3 */
+  .nav-item-3 > i{
+    cursor: pointer;
+    visibility: visible;
+    /* outline: 5px solid red; */
+  }
+}
