@@ -1,13 +1,13 @@
 @media screen and (max-width:640px) {
     /* Nav Container Within Nav */
     .navContainer{
-      height: 45px;
+      height: 32px;
       
     }
   
     /* Logo Text Written Within nav-item-1 */
     .nav-item-1 > h2{
-      font-size: 22px;
+      font-size: 16px;
     }
   
     /* Navigation Links Within nav-item-1 And Button Within nav-item 3  */

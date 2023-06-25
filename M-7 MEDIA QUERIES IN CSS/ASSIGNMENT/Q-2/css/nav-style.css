@@ -13,6 +13,9 @@ nav{
   background-color: #242B2E;
   /* border: 1px solid #000000; */
   cursor: default;
+  position: fixed;
+  top:0;
+  width: 100%;
 }
 /* Nav Container */
 .navContainer{

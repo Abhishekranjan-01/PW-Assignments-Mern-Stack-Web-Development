@@ -7,13 +7,13 @@
   <title>M-7 Question-2</title>
   <script src="https://kit.fontawesome.com/71b0d6d339.js" crossorigin="anonymous"></script>
   <!-- Nav Styling -->
-  <link rel="stylesheet" href="nav-style.css">
+  <link rel="stylesheet" href="./css/nav-style.css">
   <!-- Nav Media-Query -->
-  <link rel="stylesheet" href="./nav-media-query.css">
+  <link rel="stylesheet" href="./css/nav-media-query.css">
   <!-- Main (Element)-Styling -->
-  <link rel="stylesheet" href="./main-style.css">
+  <link rel="stylesheet" href="./css/main-style.css">
   <!-- Main (Element) Media-Query -->
-  <link rel="stylesheet" href="./main-media-query.css">
+  <link rel="stylesheet" href="./css/main-media-query.css">
 </head>
 <body>
   <nav>
@@ -39,7 +39,7 @@
         <!-- Button and Humsburger Withing nav-item-3 -->
         <button type="Login"><a href="https://github.com/Abhishekranjan-01">Login</a></button>
         <!-- <i class="fa-solid fa-bars "></i> -->
-        <i class="fa-solid fa-bars fa-xl"></i>
+        <i class="fa-solid fa-bars fa-md"></i>
       </div>
 
     </div>
@@ -72,10 +72,10 @@
   </main>
 
   <script>
-    const contact=document.querySelector('button[type=Login]');
-    console.log(contact);
+    const loginButton=document.querySelector('button[type=Login]');
+    console.log(loginButton);
 
-    contact.addEventListener('click',()=>{
+    loginButton.addEventListener('click',()=>{
       window.open("https://github.com/Abhishekranjan-01");
     });
     
