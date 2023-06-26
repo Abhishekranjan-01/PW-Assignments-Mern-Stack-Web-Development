@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M-7 Question-3</title>
+  <script src="https://kit.fontawesome.com/71b0d6d339.js" crossorigin="anonymous"></script>
+
+  <!-- Nav Styling -->
+  <link rel="stylesheet" href="./css/nav-style.css">
+  <!-- Nav Media-Query -->
+  <link rel="stylesheet" href="./css/nav-media-query.css">
+  <!-- Main (Element)-Styling -->
+  <link rel="stylesheet" href="./css/main-style.css">
+  <!-- Main (Element) Media-Query -->
+  <link rel="stylesheet" href="./css/main-media-query.css">
+  <!-- Footer Container -->
+  <link rel="stylesheet" href="./css/footer-style.css">
+  <!-- Footer Media-Query -->
+  <link rel="stylesheet" href="./css/footer-media-query.css">
+</head>
+<body>
+  <nav>
+
+    <div class="navContainer">
+    <!-- 1st Nav Item -->
+      <div class="nav-item-1">
+        <h2>LO</h2>
+        <h2>GO</h2>
+      </div>
+    <!-- 2nd Nav nav-item-2 -->
+      <div class="nav-item-2">
+        <ul>
+          <!-- Navigation Links Within nav-item-2 -->
+          <li><a href="#">Home</a></li>
+          <li><a href="#Home">Blog</a></li>
+          <li><a href="#" >About</a></li>
+          <li><a id="contact" target="_blank" href="https://github.com/Abhishekranjan-01">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-item-3">
+        <!-- Button and Humsburger Withing nav-item-3 -->
+        <button type="Login"><a href="https://github.com/Abhishekranjan-01">Login</a></button>
+        <!-- <i class="fa-solid fa-bars "></i> -->
+        <i class="fa-solid fa-bars fa-md"></i>
+      </div>
+
+    </div>
+  </nav>
+<!-- Navigation Bar Ends -->
+
+<!-- Main Starts -->
+  <main id="Home" class="main-container">
+
+    <section class="col-1 sub-container">
+     
+      <div class="sub-container-item">
+        
+        <h2>Say Hi To</h2>
+        <h1>OneCard</h1>
+        <h3 style="color: #1893F7;">Co-branded Card Issuers:-</h3>
+
+        <div class="banks">
+          <img src="./asset/banks.png" alt="card Issuers">
+        </div>
+        <p>India's Best metal credit card. Built With full-stac tech.Backed by the principles of simplicity,transparency,and giving back control to the user.</p>
+    
+      </div>
+      
+
+    </section>
+    <section class="col-2 sub-container">
+      <div class="video-animation"><video src="./asset/getOneCard.mp4" autoplay loop muted alt="GetOneCard Video"></video></div>
+    </section>
+  </main>
+<!-- Main Ends -->
+
+  <!-- Footer Starts  -->
+
+  <footer>
+    <div class="footer-container">
+      <h1>No Hidden Fees Ever</h1>
+      <h2>No Joining Fees.</h2>
+      <h2>No Annual Fees.</h2>
+      <h2>No Rewards Redemption Fees.</h2>
+    </div>
+  </footer>
+
+  <script>
+    const loginButton=document.querySelector('button[type=Login]');
+    console.log(loginButton);
+
+    loginButton.addEventListener('click',()=>{
+      window.open("https://github.com/Abhishekranjan-01");
+    });
+    
+  </script>
+</body>
+</html>

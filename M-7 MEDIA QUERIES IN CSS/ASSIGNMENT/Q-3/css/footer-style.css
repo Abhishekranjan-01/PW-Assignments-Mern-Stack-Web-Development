@@ -1,0 +1,28 @@
+/* Footer Container (Inside Footer Element) */
+.footer-container{
+    /* margin-top: 20px; */
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    background: #000000;
+    display: grid;
+    grid-template-columns:1fr ;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    /* max-height: 100%; */
+    padding-bottom:50px ;
+}
+.footer-container > h1{
+    padding:100px 0 50px 0 ;
+    font-weight: 600;
+    font-size: 50px;
+    color: #383CC1;
+    /* align-self: center; */
+}
+.footer-container > h2{
+    font-weight: 600;
+    padding: 4px 0;
+    color: #fff;
+    align-self: center;
+}

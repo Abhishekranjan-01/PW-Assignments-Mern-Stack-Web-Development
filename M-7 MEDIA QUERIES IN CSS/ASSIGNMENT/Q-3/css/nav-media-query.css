@@ -1,0 +1,26 @@
+@media screen and (max-width:640px) {
+    /* Nav Container Within Nav */
+    .navContainer{
+      height: 32px;
+      
+    }
+  
+    /* Logo Text Written Within nav-item-1 */
+    .nav-item-1 > h2{
+      font-size: 16px;
+    }
+  
+    /* Navigation Links Within nav-item-1 And Button Within nav-item 3  */
+    .nav-item-2 > ul,.nav-item-3 > button{
+      /* visibility: hidden; */
+      display: none;
+    }
+  
+    /* Hamburger Icon within nav-item-3 */
+    .nav-item-3 > i{
+      cursor: pointer;
+      /* visibility: visible; */
+      display: block;
+      /* outline: 5px solid red; */
+    }
+  }
