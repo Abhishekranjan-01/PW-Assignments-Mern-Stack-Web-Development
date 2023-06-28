@@ -45,7 +45,7 @@
 
 @media screen and (max-width:320px) {
     .video-animation{
-        background-color: #319fb3;
+       /* background-color: #319fb3;*/
         height: 100%;
         width: 100%;
     }
