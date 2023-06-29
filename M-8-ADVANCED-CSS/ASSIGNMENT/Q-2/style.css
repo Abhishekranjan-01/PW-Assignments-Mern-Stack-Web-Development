@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  body{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    /* width: 100vw; */
+  }
+  
+  /* Center Horizontally Analytics Section */
+  section{
+    margin: 100px auto;
+  }
+  /* Adjusting Analytics Items */
+  .container{
+    padding: 20px 3.5rem 15px 3.5rem;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: linear-gradient(to right,#DDA9EA,#963ED5);
+    border-radius: 10px;
+  }
+  /* Adjustin Paragraph font-size and font-weight */
+  h2+p{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  /* Adjustments For Responsive web design */
+  @media all and (max-width:355px){
+    .container{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .container h2{
+      font-size: 20px;
+    }
+  }
