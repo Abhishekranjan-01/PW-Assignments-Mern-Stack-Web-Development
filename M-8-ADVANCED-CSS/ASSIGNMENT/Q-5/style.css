@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  /* For Centering Image Container On Display */
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  /* For Centering Image In Image Container */
+  .img-container{
+    padding: 20px 50px;
+    border: 5px solid black;
+    height: 500px;
+    width: 430px;
+  
+    transition: all 1s ease-in-out ;
+  }
+  img{
+    /* pointer-events: none; */
+    height: 100%;
+    width: 100%;
+    filter: blur(25px);
+    transition: all 1s ease-in-out ;
+  }
+  /* Hovering Effect On Image */
+  img:hover{
+    filter: blur(0);
+  }
+  
+  /* Hovering Effect On Image Container */
+  .img-container:hover{
+    border: #fff;
+    background-color: #252525;
+  }* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  /* For Centering Image Container On Display */
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  /* For Centering Image In Image Container */
+  .img-container{
+    padding: 20px 50px;
+    border: 5px solid black;
+    height: 500px;
+    width: 430px;
+  
+    transition: all 1s ease-in-out ;
+  }
+  img{
+    /* pointer-events: none; */
+    height: 100%;
+    width: 100%;
+    filter: blur(25px);
+    transition: all 1s ease-in-out ;
+  }
+  /* Hovering Effect On Image */
+  img:hover{
+    filter: blur(0);
+  }
+  
+  /* Hovering Effect On Image Container */
+  .img-container:hover{
+    border: #fff;
+    background-color: #252525;
+  }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* For Centering Image Container On Display */
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+/* For Centering Image Inside Image Container */
+.img-container{
+  padding: 20px 50px;
+  border: 5px solid black;
+  height: 500px;
+  width: 430px;
+
+  transition: all 1s ease-in-out ;
+}
+img{
+  /* pointer-events: none; */
+  height: 100%;
+  width: 100%;
+  filter: blur(25px);
+  transition: all 1s ease-in-out ;
+}
+/* Hovering Effect On Image */
+img:hover{
+  filter: blur(0);
+}
+
+/* Hovering Effect On Image Container */
+.img-container:hover{
+  border: #fff;
+  background-color: #252525;
+}
