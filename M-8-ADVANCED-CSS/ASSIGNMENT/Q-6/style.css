@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* For Centering img-container on screen */
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-content: center;
+  }
+  
+  /* For Adjusting Image and heading Inside Container  */
+  .img-container{
+    width: 430px;
+    height: 515px;
+  
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+  
+    padding: 15px 20px 20px;
+    
+    color: #fff;
+    background-color: #2b2b2b;
+    transition: all 1s ease-in-out;
+  }
+  
+  /* Hovering Effects On Elements */
+  .img-container > h2{
+  border-bottom: 4px solid;
+  }
+  
+  .img-container > img{
+    margin-top:15px;
+    height: 90%;
+    width: 100%;
+    transition: all 1s ease-in-out;
+  }
+  
+  .img-container > img:hover{
+    filter: grayscale(1);
+  }
+  .img-container:hover{
+    background-color: #fff;
+    color:  #2b2b2b;
+    
+  }
+  
