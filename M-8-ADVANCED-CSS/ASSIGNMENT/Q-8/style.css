@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* For Centering The Loading Animation On The Page */
+  body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+  
+    height: 100vh;
+  }
+  
+  /* Adding Attributes in div */
+  .circle{
+    /* background-color: skyblue; */
+    height: 55px;
+    width: 55px;
+  
+    border-radius: 50%;
+  
+    border: 5px solid #F3F3F3;
+    border-left: 5px solid #242B2E;
+  
+    /* It Will Rotate till 5 hours and then again restart Rotating */
+    animation: rotate 19000s linear 0s infinite alternate-reverse ;
+    
+  }
+  
+  /* Animation Keyframe */
+  @keyframes rotate {
+    from{
+      transform: rotate(0deg);
+      
+    }
+    to{
+     /* Just tried to rotate for long time, that's why the degree is highger and not 360 */
+      transform: rotate(10000000deg);
+    }
+  }
