@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  /* CSS variables */
+  :root{
+  --heading-color:#fff;
+  --background-color: #242B2E;
+  --paragraph-color:#787C7E;
+  }
+  /* For Centering Container On Screen */
+  body{
+    
+    background-color:var(--background-color);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  /* Item Container */
+  .container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+  
+    width: 40%;
+    height: 90%;
+    color: var(--paragraph-color);
+    overflow-y:scroll ;
+  }
+  /* Image Containr for centering image */
+  .img-container{
+    display: flex;
+    justify-content: center;
+  }
+  /* Image */
+  img{
+    height: 150px;
+    width: 130px;
+  }
+  
+  /* Heading container */
+  .heading{
+    display: flex;
+    justify-content: center;
+  }
+  /* Heading (Apple) */
+  h1{
+    width: fit-content;
+    text-align: center;
+    color: var(--heading-color);
+  
+    transition: all linear 1s;
+    -webkit-transition: all linear 0.5s;
+  }
+  
+  h1:hover{
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Paragraph In container */
+  section p{
+    font-size: 20px;
+  }
+  /* ********************************************* */
+  
+  /* Customizign Scrollbar i.e custom scrollbar*/
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2b2b2b; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2a2a2a; 
+  }
