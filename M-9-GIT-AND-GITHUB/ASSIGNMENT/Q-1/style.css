@@ -1,0 +1,60 @@
+body{
+    height: 98vh;
+    width: 98vw;
+    background-color: #F1F1F1;
+}
+/* For Centering Container On Screen */
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* max-width: fit-content; */
+}
+/* Container */
+.container{
+    color: #2b2b2b;
+    background: #fff;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    min-width:290px ;
+    grid-template: repeat(4,1fr) / 1fr ;
+       
+    padding: 0 30px 30px 30px;
+
+    min-height: 230px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 5px #b6b6b6 ;
+}
+/* Container Items */
+.container div{
+align-self: center;
+max-height: 20px;   /*For Adusting Inside Container(Was Not good decision by me to use grid inside container)*/
+}
+/* All Input */
+.container input{
+font-size: 16px;
+padding: 10px 0 ;
+width: 290px;
+border: none;
+outline: none;
+border-bottom:1px solid #c7c7c7;
+align-self: center;
+
+}
+/* Button */
+.container button{
+
+padding: 10px 0 ;
+width: 290px;
+border: none;
+outline: none;
+color: #fff;
+border-radius:5px ;
+background-color: #1E87F0;
+cursor: pointer;
+
+}
