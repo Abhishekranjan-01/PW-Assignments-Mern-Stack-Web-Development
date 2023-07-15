@@ -544,56 +544,8 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.-mt-2 {
-  margin-top: -0.5rem;
-}
-
-.-mt-2\.5 {
-  margin-top: -0.625rem;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
-}
-
-.-mt-6 {
-  margin-top: -1.5rem;
-}
-
-.-mt-7 {
-  margin-top: -1.75rem;
-}
-
-.-mt-3 {
-  margin-top: -0.75rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .block {
@@ -616,16 +568,16 @@ video {
   height: 1.5rem;
 }
 
-.h-4\/5 {
-  height: 80%;
-}
-
-.w-1\/12 {
-  width: 8.333333%;
+.h-\[30px\] {
+  height: 30px;
 }
 
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.w-2\/12 {
+  width: 16.666667%;
 }
 
 .w-2\/6 {
@@ -641,8 +593,8 @@ video {
   width: 100%;
 }
 
-.w-4\/5 {
-  width: 80%;
+.min-w-\[111px\] {
+  min-width: 111px;
 }
 
 .cursor-pointer {
@@ -696,6 +648,16 @@ video {
   background-color: rgb(249 90 62 / var(--tw-bg-opacity));
 }
 
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F87171\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -725,10 +687,6 @@ video {
 
 .pr-1\.5 {
   padding-right: 0.375rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
 }
 
 .font-\[\'Poppins\'\2c sans-serif\] {
@@ -764,7 +722,31 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (max-width: 1150px) {
+  .max-\[1150px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-\[1150px\]\:bg-sky-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(125 211 252 / var(--tw-bg-opacity));
+  }
+
+  .max-\[1150px\]\:bg-blue-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+  }
+}
+
 @media not all and (min-width: 640px) {
+  .max-sm\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .max-sm\:mr-36 {
+    margin-right: 9rem;
+  }
+
   .max-sm\:hidden {
     display: none;
   }
@@ -788,6 +770,13 @@ video {
   .max-sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .max-\[300px\]\:bg-sky-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(125 211 252 / var(--tw-bg-opacity));
   }
 }
 
