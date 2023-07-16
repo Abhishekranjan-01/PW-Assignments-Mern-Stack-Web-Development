@@ -703,6 +703,10 @@ video {
   grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
+.grid-rows-\[0\.2_1fr\] {
+  grid-template-rows: 0.2 1fr;
+}
+
 .flex-row {
   flex-direction: row;
 }
