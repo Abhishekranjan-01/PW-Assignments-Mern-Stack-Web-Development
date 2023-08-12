@@ -23,10 +23,34 @@ const students = [
         marks: 99
     }
 ];
+// Function To filter Results
+function checkResults(studentName){
 
-students.forEach((item,index,array)=>{
-    if(item.marks > 90){
-        console.log(`Congratulations ${item.name} ! You have cleared the exam.`)
+     let i;
+    for(i=0;i<students.length;i++)
+    {
+
+        if(students[i].name == studentName && students[i].marks > 90)
+        {
+        console.log(`Congratulations ${students[i].name} ! You have cleared the exam.`);
+        break;
+        }   
+        else if(students[i].name == studentName && students[i].marks < 90)
+        {
+        console.log(`Sorry ! You have not cleared the exam`);
+        break;
+        }
+        
     }
-});
 
+    if(i>=students.length){
+        console.log(`Invalid User !!!`);
+    }
+}
+
+// Passing name Parameter
+checkResults('Steve');
+checkResults('Harry');
+checkResults('Mike');
+checkResults('Andrew');
+ 
