@@ -1,0 +1,9 @@
+    /*
+    img.setAttribute('src',`${input.value}`)
+    // img.src = `${input.vaule}`;
+    img.alt = `Selected Image`;
+    input.insertAdjacentElement("afterend",img);
+    
+    console.log(img);
+    console.log(input.value);
+    */
