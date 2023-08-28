@@ -1,0 +1,1 @@
+multiplyNumbers(5,5)
