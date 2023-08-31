@@ -1,14 +1,16 @@
 // Function TO Manipulate String
-const manipulateString = (string)=>{
+const manipulateString = (string,callback)=>{
 
 string = string.toUpperCase();
 // Function to print uppercase String
-function logString(){
+callback = ()=>{
     console.log("The manipulated string is: ",string);
 }
 // Returing Function
-return logString;
+return callback;
 }
 
-const logString = manipulateString("hello, world");
+let logString = undefined;
+
+logString = manipulateString("hello, world",logString);
 logString();
