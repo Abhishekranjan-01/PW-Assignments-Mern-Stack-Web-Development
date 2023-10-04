@@ -1,0 +1,18 @@
+Dbms is a software which facilitate to store and organize data in logical structured manner so that users can add modify and query the database and provide access control and security mechanism for the database so that unautorized access and transaction of data from the database can be prohibited.
+
+There was a need of DBMS because following reasons:-
+
+1. Redundancy:-
+Avoid similar data to be written or stored in database.
+
+2.Security:-
+Avoid unautorized access to database and provide only relevant information from the database rather providing all data.
+
+3. Data Isolation:-
+Such information can be fetched out from the database,which depends on the the other tables , "relationship between the tables is possible".
+
+4. Concurrance acces:-
+Multiple users can fetch data from the data in one or multiple point of time.
+
+5.Structured query:-
+Structured query can be used to get meaningful data from the database.

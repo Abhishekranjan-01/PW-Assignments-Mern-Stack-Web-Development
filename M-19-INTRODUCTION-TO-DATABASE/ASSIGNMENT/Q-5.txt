@@ -1,0 +1,65 @@
+There are the following types of classification of dbms:-
+
+(1) Based on data model----
+
+1:- Relational Data Model:-
+In relational data model data are stored in the tables, and these tables have relationship with other tables, kind of we can say they are connected with each other with key ,
+for example- In mysql two tables or more tables can have relationship between them with using primary key and foreign key.
+
+In relational Data Model Many constraint can be implemented like-
+for preventing storing duplicate data "unique" or "primary key" constraint can be implemented.
+or
+For avoiding empty column or field not null constraint can be use.
+
+2:- Hierarchical Data Model:-
+In hierarchical data model data is stored in such a way that each data element can have one to many relationship
+
+The hierarchy starts from root node and connects all it's child nodes to parent.
+
+Here data is stored like a tree similar to data is stored in our file system of windows,mac or phones.
+
+3:- Network Data Model:-
+In Network data model data is stored in such a way that each data element can have one to one or many to many relationship.
+
+It also have hierarchical structure but data is organized like a graph and allowed child nodes to have multiple parents.
+
+4:- Object Oriented data model:-
+In Object Oriented data model data is strored in such a way that each data element has "state" and "behaviour".
+
+In this model data element is treated as real world entity.
+
+
+(2) Based on number of users----
+
+
+1:- Single user database:-
+This type of database is designed for single user only where database has data of only single user.
+
+Only the single user can acces and modify the data , and use it's all the resources,
+example of this database is :- personal-computer,moblie-phones and e.t.c.
+
+2:- Multi user database:-
+This type of database is designed for multiple users so that it can store data of multiple users and multiple user can acces and modify the data simultaneously and Concurrently.
+
+In Such type of database, the  can be stored on multiple computers or the database can be distributed on multiple computers.
+
+
+(3) Based on number of Database distribution----
+
+
+1:- Centralized database:-
+In Centralized database the database is stored and maintained from one location only.
+
+The advanatage of this database is that:-
+(i) Since all the data is strored on single location the redundancy would not occur.
+
+(ii) Easier to acces and coordinate with data.
+
+(iii) Cheaper than other databases.
+
+
+The disadvanatage of this database is that:-
+
+(i) Since all the data is stored in single location , if any system failure occur all the data might get lost.
+
+(ii)When multiple users acces the data the speed of acces and modification would go down.

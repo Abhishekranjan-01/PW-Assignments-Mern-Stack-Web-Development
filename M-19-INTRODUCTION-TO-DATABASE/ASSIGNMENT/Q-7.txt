@@ -1,0 +1,18 @@
+The three schema architecture includes:-
+
+1.Physical database schema
+2.Logical database schema
+3.View database schema
+
+and there advantages are:-
+
+1.Physical database schema
+The Physical schema defines how and where will be data stored in form of files and indices,
+in data storage system.
+
+2.Logical database schema
+The logical database schema defines logical constraint which will applied in stored data,
+and number of tables and their attributes in database and relationship between the tables.
+
+3.View database schema
+The View database schema defines only required information can be get by the users using GUI or CUI without knowing internal mechanism or structure of the database using.

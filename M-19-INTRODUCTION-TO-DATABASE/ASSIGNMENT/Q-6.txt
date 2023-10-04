@@ -1,0 +1,25 @@
+There are  following significance of data modeling:-
+
+1. Organizing data:-
+Data modeling structure the  data in logical and structure manner making it easier to manage and understannd.
+
+It defines attributes,entities and relationships,which provides clear understannding how data elements relate to each other.
+
+2. Efficient Database Design:-
+Data models guides depelopers in creating physical database.
+
+They descirbe how data is stored,accessed and updated within the DBMS.
+
+All these help in design scalabe and fast performance database.
+
+
+There are following types of data modeling:-
+
+*Conceptual Model:-
+Higl level view which gives understanding of how data is stored,accumulated, and related to each other for the business requrirement.
+
+*Representational Model:-
+It descirbes logical structure of the database without physical implementation.
+
+*Physical Model:-
+It Specify How And Where data get stored and what will be the storage mechanism.

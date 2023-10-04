@@ -1,0 +1,20 @@
+There are some challenges of file based storage system which was tackled by DBMS:-
+
+1. Redundancy:-
+Dbms softwares provides some logical constraint in database which can be implemented by database administrator to avoid redundancy in database,
+some constraint like- unique,primary-key in S.Q.L .
+
+2. Security:-
+Because data is stored in structured schema in dbms softwares, the random acces and modification of data is not possible, even database administrator can restrict all to acces database and allow only relevant users to acces it by creating user and granting only relevant rights to the user.
+
+3. Concurrance access:-
+Multiple users can read/modify the data from the central database and also bring changes to new database without affecting central the database depending on the rights and accesiblity provided by database administrator.
+
+4. Getting meaningful information:-
+SQL dbms softwares provides the 'structured query' feature,
+so that relevant information can be dig out from the large dataset , without knowing any programming language or getting it manually.
+
+
+5. Data Isolation:-
+Such meaningful information can be dig out from the database, where it depends on the other fields of other table, if relationship eshtablished by database administrator in the one table to another.
+In such cases primary key and foreign key is often used to eshtablish relationship between multiple tables in SQL dbms softwares.

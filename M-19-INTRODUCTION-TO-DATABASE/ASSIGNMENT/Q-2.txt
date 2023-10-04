@@ -1,0 +1,31 @@
+A file based system is a approach of storing data,such
+that data and files are saved in files or directory (in file format ex:- .txt,.png,.pdf,.docx) so that it can be accessed easily.
+
+In File based system the data is is stored in files and it is stored in sub-folders and that folders is organized under hierarchy of directories and sub directories.
+
+There are the some major challenges of a file-based storage system:-
+
+1. Rudundacny:-
+In file based storage system it is difficult to restrict duplicacy of the data,
+
+and also if same data is stored in multiple directories then in order update the data it is needed to update that data in other directories also where it resides, else read anomaly will happen.
+
+2.Security:-
+In early days it was difficult to protect data from unautorized access in file based system,
+there was no concept of two-factor authorization and bio-metric base authorization.
+
+3.Concurrance access:-
+Concurrance acces not possible that is multiple users can't get acces to same data in order to read/modify at single point of time.
+
+4.Difficult to get meaningful information:-
+There is only two method to get meaningful information from the data, that is -
+
+First, by making programs using programming language so that it can extract some logical and meaningful information from the data,(which only a prgrammer can do)
+and 2nd is,
+manually getting the data from the the file system,which is very time taking process.
+
+
+5.Data Isolation:-
+It is difficult get such type of data which is related to another data that is stored in another directories,
+Suppsose if a user require some data which can't be provided using a single file,then someone needs to,
+locate all the related data and figuring out the relationship between them and then present it to the user.

@@ -1,0 +1,7 @@
+Database is a collection of inter-related data which is later used to retrive,modify and process it for specific purposes or business purposes like taking data driven decison rather intitutive base decison.
+
+We need a database because any modern application is not possible without database, for example:-
+
+In E-Commerce Website there should be contact details and correspondence address details in the database, so the product can be deliver to the user.
+
+Also product details like product name,type of product and pricing should present in the database so that the correct product can be deliver to the user.
