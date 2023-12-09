@@ -1,0 +1,19 @@
+{
+  "name": "new-package",
+  "version": "1.0.0",
+  "description": "Question-1 of node-js assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "pw",
+    "mern",
+    "stack",
+    "assignment",
+    "node",
+    "js"
+  ],
+  "author": "Abhishek Ranjan",
+  "license": "ISC"
+}
