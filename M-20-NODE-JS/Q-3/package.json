@@ -1,0 +1,19 @@
+{
+  "name": "question-2",
+  "version": "1.0.0",
+  "description": "Question-2 of node-JS assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "Pw",
+    "Mern",
+    "Stack",
+    "Assignment",
+    "Node",
+    "Js"
+  ],
+  "author": "Abhishek Ranjan",
+  "license": "ISC"
+}
